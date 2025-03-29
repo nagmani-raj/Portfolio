@@ -1,0 +1,72 @@
+<div className="mt-16">
+          <h3 className="text-3xl font-bold mb-8 text-center">Experience 📈</h3>
+          <div className="relative border-l-4 border-red-500 ml-4">
+            {/* === Experience 1 === */}
+            <motion.div
+              className="mb-10 ml-6"
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
+              <div className="absolute w-4 h-4 bg-red-500 rounded-full -left-2 top-2"></div>
+              <h4 className="text-xl font-bold">
+                Web Mentor{" "}
+                <span className="text-red-500">@Sheryians Coding School</span>
+              </h4>
+              <p className="text-gray-400">
+                Sep 2022 - April 2023 | Bhopal, MP, India
+              </p>
+              <p className="text-gray-300">
+                Mentored 100+ students on Front-End Development and created
+                award-winning projects.
+              </p>
+            </motion.div>
+
+            {/* === Experience 2 === */}
+            <motion.div
+              className="mb-10 ml-6"
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
+              <div className="absolute w-4 h-4 bg-red-500 rounded-full -left-2 top-2"></div>
+              <h4 className="text-xl font-bold">
+                Web Intern{" "}
+                <span className="text-red-500">@Owasis InfoByte</span>
+              </h4>
+              <p className="text-gray-400">
+                Dec 2022 - Feb 2023 | New Delhi, India
+              </p>
+              <p className="text-gray-300">
+                Developed and designed multiple frontend projects with
+                responsive UI/UX.
+              </p>
+            </motion.div>
+
+            {/* === Experience 3 === */}
+            <motion.div
+              className="mb-10 ml-6"
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
+              <div className="absolute w-4 h-4 bg-red-500 rounded-full -left-2 top-2"></div>
+              <h4 className="text-xl font-bold">
+                Web Intern{" "}
+                <span className="text-red-500">@Bharat Intern</span>
+              </h4>
+              <p className="text-gray-400">
+                April 2022 - June 2023 | Bhopal, India
+              </p>
+              <p className="text-gray-300">
+                Developed UI/UX projects and contributed to frontend assignments.
+              </p>
+            </motion.div>
+          </div>
+        </div>
+
+
+        isako add karana hai jab exprience section apane code me add karana ho
