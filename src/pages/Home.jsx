@@ -60,7 +60,7 @@ const Home = () => {
               <FaLinkedin />
             </a>
             <a
-              href="https://github.com/nagmani-raj"
+              href="https://www.instagram.com/bagrit_official/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-pink-500 hover:text-pink-400"
@@ -68,7 +68,7 @@ const Home = () => {
               <FaInstagram />
             </a>
             <a
-              href="https://github.com/nagmani-raj"
+              href="https://x.com/Nagmaniraj317"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-400 hover:text-blue-300"
